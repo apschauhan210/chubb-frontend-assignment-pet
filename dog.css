@@ -1,0 +1,177 @@
+
+body {
+    /* background-color: rgb(216, 180, 125); */
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width : 100vw;
+}
+.card {
+    /* background-color: rgb(249, 249, 246); */
+    width: 100%;
+    max-width: 90vw;
+    /* padding: 20px;/ */
+    border-radius: 10px;
+    height : 100vh;
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); */
+}
+
+.pawImg{
+  margin :0px 0px 0 0;
+  text-decoration: none;
+  color: black;
+}
+
+.navMenuContainer {
+    flex-direction: column;
+  display: flex;
+  justify-content: space-between; 
+  color: rgb(38, 38, 93);
+  /* padding: 10px;  */
+}
+
+.iconsContainer{
+  width: 65px;
+  height : 20px;
+  text-align: end;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navMenu {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding : 0;
+  gap: 20px; 
+  border-bottom: 1px solid rgb(38, 38, 93);
+  height: 90px;
+}
+
+.navOptions{
+  width: 800px;
+  /* text-align: start; */
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height : 10px;
+}
+
+.right {
+    margin-left: auto; 
+  }
+
+#navcontent li a:hover {
+  text-decoration: underline; 
+}
+
+.navText{
+    padding: 1px;
+    text-decoration: none;
+    border-radius:10px;
+    font-size:medium;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin : 0px 40px 0 0;
+  color: rgb(38, 38, 93);
+  text-decoration: none; 
+    /* margin : 0; */
+}
+
+.container {
+    display: flex;
+    /* margin:  30px; */
+    display: flex;
+    width : 100%;
+    justify-content: space-between;
+    align-items: center;
+    margin : 80px 0 0 -20px;
+  }
+
+  .ContentContainer {
+    padding: 20px;
+    display: flex;
+    justify-content: flex-start; 
+    align-items: center;
+  }
+.heading{
+    font-size: 44px;
+    font-weight: bolder;
+    color: rgb(38, 38, 93);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin : 0;
+}
+.subheading{
+    font-size:20px;
+    opacity: 0.7;
+    color: rgb(38, 38, 93);
+}
+.searchButton{
+    background-color: rgb(235, 95, 36);
+    color: rgb(232, 235, 238);
+    text-align: center;
+    font-weight: bolder;
+    width : 130px;
+    height : 50px;
+    font-size: 18px;
+    box-shadow: 0 0 5px orangered;
+    border-style: none;
+    border-radius: 25px;
+}
+  .imageContainer {
+    flex: 6; 
+    text-align: end;
+  }
+
+  .retrieverImage {
+    width: auto;
+    height : 550px;
+    border-radius: 200px;
+  }
+ .searching{
+    font-weight: bold;
+    color: rgb(38, 38, 93);
+    border-radius: 10px;
+    padding-right: 50px;
+    box-shadow: 0 0 5px rgb(143, 136, 136);
+ }
+ .searchContainer{
+  width : 400px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(255, 255, 255);
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+
+ }
+ .searchInput{
+    width:100%;
+    height:25px;
+    background-color: transparent;
+    padding : 0 0 0 20px;
+    font-size: 18px;
+    margin-right: 0px;
+    border: none;
+}
+
+.searchBtn{
+  color: red;
+  margin : 0 20px 0 0;
+}
+
+.searchWrapper{
+  margin : 80px 0 0 0;
+  width : 550px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
